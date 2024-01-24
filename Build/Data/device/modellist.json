@@ -132,6 +132,12 @@
         "LEType":"0"
     },
     {
+        "ModelID":656802009,
+        "FWID":"0x80222310",
+        "Name":"GK75",
+        "LEType":"1"
+    },
+    {
         "ModelID":656802001,
         "FWID":"0x90222310",
         "Name":"75X RGB",

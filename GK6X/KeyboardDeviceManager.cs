@@ -224,6 +224,7 @@ namespace GK6X
                 if (result == null || result.FirmwareId != firmwareId)
                 {
                     LogHandshakeFailed(stream.Device, "Couldn't find data for keyboard");
+		    Console.WriteLine("modelID: " + modelId + " FWID: " + firmwareId);
                     return null;
                 }
                 result.FirmwareMinorVersion = firmwareMinorVersion;
